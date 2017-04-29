@@ -1,9 +1,12 @@
 ﻿<h1>{{title}}</h1>
 
 <ul>
-    <li><a [routerLink]="['/','one']">One</a></li>
-    <li><a [routerLink]="['/','two']">Two</a></li>
-    <li><a [routerLink]="['/','three']">Three</a></li>
+    <li><a [routerLink]="['/','first','one']">First -> One</a></li>
+    <li><a [routerLink]="['/','first','two']">First -> Two</a></li>
+    <li><a [routerLink]="['/','first','three']">First -> Three</a></li>
+    <li><a [routerLink]="['/','second','one']">Second -> One</a></li>
+    <li><a [routerLink]="['/','second','two']">Second -> Two</a></li>
+    <li><a [routerLink]="['/','second','three']">Second -> Three</a></li>
 </ul>
 
 <router-outlet></router-outlet>

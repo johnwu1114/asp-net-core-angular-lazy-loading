@@ -5,5 +5,5 @@ import { Component } from "@angular/core";
     template: require("./app.component.html")
 })
 export class AppComponent {
-    title = "Angular 4 - Routing";
+    title = "Angular 4 - Routing in Multiple Modules";
 }
