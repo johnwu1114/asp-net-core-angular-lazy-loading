@@ -1,7 +1,7 @@
 import { Route } from "@angular/router";
 import { RouteUtil } from "./shared/utils/route.util";
-import { FirstRoutes } from "./first/first.routes";
-import { SecondRoutes } from "./second/second.routes";
+import { FirstModule } from "./first/first.routes";
+import { SecondModule } from "./second/second.routes";
 
 interface RouteItem extends Route {
     menuName?: string;
@@ -16,11 +16,11 @@ const routes: RouteItem[] = [
     },
     {
         path: "first",
-        loadChildren: () => FirstRoutes
+        loadChildren: () => FirstModule
     },
     {
         path: "second",
-        loadChildren: () => SecondRoutes
+        loadChildren: () => SecondModule
     }
 ];
 

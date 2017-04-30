@@ -6,7 +6,7 @@ Use the Visual Studio 2017 to development.
 介紹 Angular 4 的 Routing 在多個 Modules 的情況下，實現 Single Page Application(SPA)。  
 [ASP.NET Core + Angular 4 教學 - Multiple Modules](https://blog.johnwu.cc/article/asp-net-core-angular-4-教學-multiple-modules.html)
 
-程式碼延續前兩篇的範例：
+程式碼延續前兩篇的範例：  
 [ASP.NET Core + Angular 4 教學 - 從無到有](https://blog.johnwu.cc/article/asp-net-core-angular-4-教學-從無到有.html)  
 [ASP.NET Core + Angular 4 教學 - Webpack打包](https://blog.johnwu.cc/article/asp-net-core-angular-4-教學-webpack.html)  
 

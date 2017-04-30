@@ -33,4 +33,4 @@ const routes: Route[] = [
         RouterModule
     ]
 })
-export class SecondRoutes { }
+export class SecondModule { }
