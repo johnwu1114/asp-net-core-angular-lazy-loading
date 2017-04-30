@@ -3,12 +3,7 @@ import { RouteUtil } from "./shared/utils/route.util";
 import { FirstModule } from "./first/first.routes";
 import { SecondModule } from "./second/second.routes";
 
-interface RouteItem extends Route {
-    menuName?: string;
-    children?: RouteItem[];
-}
-
-const routes: RouteItem[] = [
+const routes: Route[] = [
     {
         path: "",
         redirectTo: "first",
@@ -25,7 +20,7 @@ const routes: RouteItem[] = [
 ];
 
 export class AppRoutes {
-    public static getRoutes(): RouteItem[] {
+    public static getRoutes(): Route[] {
         return routes;
     }
 
