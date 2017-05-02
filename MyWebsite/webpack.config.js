@@ -10,6 +10,7 @@ module.exports = {
     },
     output: {
         path: wwwroot + "/js",
+        publicPath: "/js/",
         filename: "[name].js",
         sourceMapFilename: "[name].map"
     },
@@ -22,7 +23,8 @@ module.exports = {
                 test: /\.ts$/,
                 loaders: [
                     "awesome-typescript-loader",
-                    "angular2-template-loader"
+                    "angular2-template-loader",
+                    "angular-router-loader"
                 ],
                 exclude: /(node_modules)/
             },
