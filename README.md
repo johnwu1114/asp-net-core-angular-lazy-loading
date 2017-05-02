@@ -1,7 +1,7 @@
 This repository is sample code for ASP.NET Core & Angular 4 (Angular 2) SPA.  
 Use the Visual Studio 2017 to development.  
 
-# ASP.NET Core + Angular 4 教學
+# ASP.NET Core + Angular 4 教學 - Lazy Loading
 
 介紹 Angular 4 的 Lazy Loading，避免寫 SPA 程式越做越大，啟動時載入全部的 JavaScript 檔很累贅又恨慢。  
 比較好的做法是用到什麼功能，再載入當下用到 Module 的 JavaScript 檔案，節省載入時間。  
